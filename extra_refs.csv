@@ -1,0 +1,3 @@
+pair,r,p,ci_lo,ci_hi,method,block,n_boot,seed
+"r(MI,H_TSA)",0.9491,5.538023720238817e-54,0.8335,0.9727,moving_block_bootstrap,26,2000,20260531
+"r(MI,LZC_TSA)",0.9174,2.097813769664443e-43,0.5745,0.9427,moving_block_bootstrap,26,2000,20260531

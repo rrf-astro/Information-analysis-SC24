@@ -1,0 +1,17 @@
+# Reproducibility environment for the SC24 information-theoretic analysis.
+# Pinned versions are those used to produce the frozen results
+# (Python 3.12.2). Other packages list the minimum version known to work;
+# the analysis is not sensitive to patch-level differences except where noted.
+#
+# NOTE: scipy is pinned because the Mann-Whitney U implementation changed
+# across releases; a different scipy may shift the diagnostic table_min_max.csv
+# (MW_U by a few units) without affecting any reported scientific conclusion.
+
+numpy==1.26.4
+pandas==2.2.2
+scipy==1.13.1
+matplotlib>=3.8
+scikit-learn>=1.4
+astropy>=6.0
+astroquery>=0.4.7
+kneed>=0.8.5

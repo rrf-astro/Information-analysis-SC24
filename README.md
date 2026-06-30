@@ -26,7 +26,7 @@ attempt to query the Mandal (2020) catalogue from CDS VizieR
 CSV in the root, the `diagnostics/` folder, and the three diagnostic reports
 inside it.
 
-After running the notebook, the human-readable robustness report can be
+After running the notebook, the robustness report can be
 regenerated from the result CSVs with:
 
 ```bash

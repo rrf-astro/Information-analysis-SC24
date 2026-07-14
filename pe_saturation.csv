@@ -1,0 +1,2 @@
+scope,n_windows,pe_min,pe_max,pe_mean,pe_std,split,mw_U,p_intra_plateau,hi_mean,hi_std,lo_mean,lo_std
+2011-01_2015-12,60,0.9215,0.9941,0.9703,0.0196,MI_median,485.0,0.6084,0.9737,0.0128,0.967,0.0244

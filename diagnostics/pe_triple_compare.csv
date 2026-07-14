@@ -1,0 +1,7 @@
+series,block,m,tie_frac,PE_continuous,PE_symbolic,PE_jitter,mod_ratio_cont,mod_ratio_symb,mod_ratio_jit,p_plateau_cont,p_plateau_symb,p_plateau_jit
+TSA,static_Daily,4,0.993,0.9045,0.3786,0.9911,,,,,,
+TSA,static_Monthly,3,0.791,0.9973,0.7505,0.9971,,,,,,
+TSA,windowed_full+plateau,3,0.745,0.8794-0.9941 (σ0.0257),0.2547-0.9698 (σ0.1974),0.8011-1.0 (σ0.0377),1.13,3.808,1.248,0.6296,0.4505,0.1685
+PSI,static_Daily,4,0.991,0.8231,0.2728,0.9927,,,,,,
+PSI,static_Monthly,3,0.814,0.9838,0.7252,0.9931,,,,,,
+PSI,windowed_full+plateau,3,0.774,0.8659-0.9941 (σ0.0335),0.2547-0.9803 (σ0.2163),0.7806-1.0 (σ0.0359),1.148,3.849,1.281,0.0641,0.0002,0.9646

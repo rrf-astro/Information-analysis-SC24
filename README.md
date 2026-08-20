@@ -1,10 +1,10 @@
 # Informational analysis of TSA and PSI in Solar Cycle 24
 
 Information-theoretic characterisation of solar activity over Solar Cycle 24
-(2008–2019), using the Total Sunspot Area (TSA) and the Photospheric Sunspot
+(2008–2019), using the Total Sunspot Area (TSA) and the Photometric Sunspot
 Index (PSI) from the Mandal (2020) catalogue. The analysis applies Shannon
 entropy (H), Lempel–Ziv complexity (LZC), mutual information (I), permutation
-entropy (PE), López–Mancini–Calbet statistical complexity (C_LMC) and
+entropy (PE), López-Ruiz–Mancini–Calbet statistical complexity (C_LMC) and
 Jensen–Shannon divergence (D_JS) to daily, monthly and annual series, and
 tracks their evolution through the cycle with a sliding window.
 
@@ -23,8 +23,7 @@ The notebook queries the Mandal (2020) catalogue directly from CDS VizieR
 verifies the retrieved catalogue against the expected record count and date
 range before proceeding.
 
-A full run regenerates every figure, every CSV in the root, and the
-`diagnostics/` folder with its integrity report. After running the notebook,
+A full run regenerates every figure, every CSV in the root (including the integrity report and the internal diagnostic tables). After running the notebook,
 the consolidated robustness report can be regenerated from the result CSVs
 with:
 
@@ -69,9 +68,9 @@ by the notebook.
 above, with each diagnostic presented alongside the full table of its
 underlying values.
 
-### `diagnostics/`
-Internal diagnostic outputs produced by the notebook. They are **not** cited in
-the manuscript and are kept only for inspection and method transparency:
+### Internal diagnostic outputs (root)
+These files are written by the notebook to the repository root but are **not**
+cited in the manuscript; they are kept only for inspection and method transparency:
 
 - `table_min_max.csv` — windowed minimum/maximum comparison (see note below).
 - `mi_estimator_series.csv` — per-window mutual-information series across estimators.
